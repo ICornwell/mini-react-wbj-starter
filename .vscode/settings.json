@@ -1,0 +1,29 @@
+{
+    "mocha.nycPath": "./coverage",
+    "mocha.sideBarOptions": null,
+
+    "mocha.requires": [
+        "@babel/register"
+    ],
+    "mochaExplorer.env": {
+        
+
+
+        "NODE_ENV" : "test"
+    
+    },
+    "mochaExplorer.esmLoader": true,
+    "mochaExplorer.require": [
+        "@babel/register"
+    ],
+    "mocha.env": [
+        {
+            "NODE_ENV": "test",
+            "env": "test"
+        }
+    ],
+    "mochaExplorer.debuggerConfig": "Mocha Tests",
+    "testExplorer.addToEditorContextMenu": true,
+    "testExplorer.showOnRun": true
+    
+}
